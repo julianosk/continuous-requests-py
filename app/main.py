@@ -9,5 +9,8 @@ print('URL = {}'.format(URL))
 print('INTERVAL = {}'.format(INTERVAL))
 
 while True:
-  print(requests.get(URL))
+  try:
+    print(requests.get(URL, timeout=INTERVAL))
+  except:
+    print("Error requesting {}".format(URL))
   time.sleep(INTERVAL)
