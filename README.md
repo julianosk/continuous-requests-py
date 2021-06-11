@@ -2,7 +2,7 @@
 
 A simple container that executes a get request from a Python script. It can repeat the get request indefinitely with a custom interval.
 
-The container is based on Alpine Linux 3.7 and the Python `requests` library.
+The container is based on Alpine Linux 3.7 and uses the Python [requests](https://pypi.org/project/requests/) library.
 
 ## Usage
 
