@@ -1,4 +1,4 @@
-# Continuous Request in Python
+# Continuous Requests in Python
 
 A simple container that executes a get request from a Python script. It can repeat the get request indefinitely with a custom interval.
 
